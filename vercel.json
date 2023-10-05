@@ -1,8 +1,13 @@
 {
-  "version": 2,
   "builds": [
     {
-      "src": "api/index.js"
+      "name": "build1",
+      "use": "server",
+      "entrypoint": "api/index.js"
+    },
+    {
+      "name": "build2",
+      "entrypoint": "static/index.html"
     }
   ]
 }
