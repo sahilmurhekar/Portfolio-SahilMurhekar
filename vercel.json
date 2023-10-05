@@ -1,13 +1,9 @@
 {
+  "version": 2,
   "builds": [
     {
-      "name": "build1",
       "use": "server",
       "entrypoint": "api/index.js"
-    },
-    {
-      "name": "build2",
-      "entrypoint": "static/index.html"
     }
   ]
 }
