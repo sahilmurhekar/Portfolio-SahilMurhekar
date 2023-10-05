@@ -2,8 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "api/index.js",
-      "handler": "handler"
+      "src": "api/index.js"
     }
   ]
 }
